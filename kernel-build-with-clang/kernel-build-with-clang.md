@@ -35,7 +35,8 @@ Build Linux kernel with gllvm
     - Tested versions
       - Linux kernel-5.3 + clang/llvm-9.0 (Ubuntu 18.04)
       - Linux kernel-4.14 + clang/llvm-3.8 (Ubuntu 18.04)
-  
+4. With each object file (.o), run ``get-bc example.o`` to get .bc file, and use ``llvm-dis example.bc`` to get readable byte code (.ll)
+
 References
 ---
 - https://github.com/microsoft/checkedc-clang/wiki/Building-the-Linux-kernel
