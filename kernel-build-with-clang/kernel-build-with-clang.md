@@ -14,7 +14,7 @@ How to build Linux kernel with clang?
 3. Build with clang
   - ``cd linux-stable``
   - Create default config ``make defconfig``. AMDGPU is not supported, so please disable it (if you use defconfig under x86 machine, it is automatically disabled) 
-  - ``make CC=clang HOSTCC=clang-j 5``
+  - ``make CC=clang HOSTCC=clang -j 5``
   - Tested versions
     - Linux kernel-5.3 + clang/llvm-9.0 (Ubuntu 18.04)
     - Linux kernel-4.14 + clang/llvm-3.8 (Ubuntu 18.04)
@@ -31,7 +31,7 @@ Build Linux kernel with gllvm
 3. Build with gllvm
   - ``cd linux-stable``
   - Create default config ``make defconfig``. AMDGPU is not supported, so please disable it (if you use defconfig under x86 machine, it is automatically disabled) 
-  - ``make CC=gclang HOSTCC=gclang-j 5``
+  - ``make CC=gclang HOSTCC=gclang -j 5``
   - Tested versions
     - Linux kernel-5.3 + clang/llvm-9.0 (Ubuntu 18.04)
     - Linux kernel-4.14 + clang/llvm-3.8 (Ubuntu 18.04)
