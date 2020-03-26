@@ -1,4 +1,4 @@
-How to build Linux Kernel with clang?
+How to build Linux kernel with clang?
 ---
 
 1. Download Linux kernel from git
