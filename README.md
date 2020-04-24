@@ -1,2 +1,2 @@
 # dev-note
-Notes for various development
+Notes for development and environment settings
