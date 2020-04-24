@@ -1,2 +1,2 @@
 # dev-note
-various notes for development
+Notes for various development
